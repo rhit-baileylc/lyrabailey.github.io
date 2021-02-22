@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+  <link rel="stylesheet" href="styles/bootstrap-material-design.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>Lyra "Lily" Bailey</title>
+</head>
+
+<body>
+  <div class="bmd-layout-container bmd-drawer-f-l bmd-drawer-overlay">
+    <header class="bmd-layout-header">
+      <div class="navbar navbar-dark bg-faded justify-content-start">
+        <button class="navbar-toggler" type="button" data-toggle="drawer" data-target="#dw-s2">
+          <span class="sr-only">Toggle drawer</span>
+          <i class="material-icons">menu</i>
+        </button>
+        <a class="navbar-brand" href="index.html">&nbsp;Lyra "Lily" Bailey</a>
+      </div>
+    </header>
+    <div id="dw-s2" class="bmd-layout-drawer bg-faded">
+      <header>
+        <a class="navbar-brand">Lyra "Lily" Bailey</a>
+      </header>
+      <ul class="list-group">
+        <a id="menuAbout" class="list-group-item" href="index.html"><i class="material-icons">account_box</i>About</a>
+        <a id="menuResume" class="list-group-item" href="resume.html"><i class="material-icons">article</i>Resume</a>
+      </ul>
+    </div>
+    <main class="bmd-layout-content">
+      <div id="aboutPage" class="container page-container">
+        <h1 class="title">About</h1>
+        <section id="aboutDescription">
+          <img id="headshot" src="images/bwheadshot.jpg">
+          <p>Hello! My name is Lyra "Lily" Bailey. I'm currently a junior at Rose-Hulman Institute of Technology,
+            majoring
+            in Mechanical Engineering, minoring in German and Computer Science, and getting a concentration in
+            Aerospace.
+          </p>
+          <br>
+          <p>I was born and raised in Birmingham, Alabama. When I'm not in class or working on schoolwork, I enjoy
+            playing
+            soccer, playing video games, and watching movies with my friends. I also like using some of my engineering
+            knowledge to recreate props or costumes from those video games and movies!</p>
+          <img id="sword" src="images/sword.JPG">
+        </section>
+      </div>
+    </main>
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/popper.js"></script>
+    <script src="scripts/bootstrap-material-design.js"></script>
+    <script>
+      $("body").bootstrapMaterialDesign();
+    </script>
+    <script src="/__/firebase/7.18.0/firebase-app.js"></script>
+    <script src="/__/firebase/7.18.0/firebase-analytics.js"></script>
+    <script src="/__/firebase/7.18.0/firebase-auth.js"></script>
+    <script src="/__/firebase/7.18.0/firebase-firestore.js"></script>
+    <script src="/__/firebase/init.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

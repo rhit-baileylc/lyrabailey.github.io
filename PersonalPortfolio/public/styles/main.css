@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Mukta';
+    src: url(Mukta-Regular.ttf) format('truetype');
+}
+
+p,
+li {
+    font-family: 'Mukta', Arial, sans-serif;
+}
+
+body {
+    background: #DDDDDD;
+}
+
+.navbar {
+    background-color: purple;
+    color: white;
+}
+
+.page-container {
+    margin-top: 20px;
+}
+
+.bmd-layout-drawer>header {
+    background-color: purple;
+    color: white;
+}
+
+.bmd-layout-drawer>ul {
+    background-color: #DDDDDD;
+
+}
+
+.list-group-item :first-child {
+    margin-right: 0.75rem;
+}
+
+.bmd-layout-content {
+    height: 100vh;
+}
+
+#headshot {
+    float: right;
+    max-height: 300px;
+}
+
+#sword {
+    float: left;
+    max-height: 300px;
+}

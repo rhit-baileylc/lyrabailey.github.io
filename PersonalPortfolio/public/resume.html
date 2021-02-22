@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+  <link rel="stylesheet" href="styles/bootstrap-material-design.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>Resume</title>
+</head>
+
+<body>
+  <div class="bmd-layout-container bmd-drawer-f-l bmd-drawer-overlay">
+    <header class="bmd-layout-header">
+      <div class="navbar navbar-dark bg-faded justify-content-start">
+        <button class="navbar-toggler" type="button" data-toggle="drawer" data-target="#dw-s2">
+          <span class="sr-only">Toggle drawer</span>
+          <i class="material-icons">menu</i>
+        </button>
+        <a class="navbar-brand" href="index.html">&nbsp;Lyra "Lily" Bailey</a>
+      </div>
+    </header>
+    <div id="dw-s2" class="bmd-layout-drawer bg-faded">
+      <header>
+        <a class="navbar-brand">Lyra "Lily" Bailey</a>
+      </header>
+      <ul class="list-group">
+        <a id="menuAbout" class="list-group-item" href="index.html"><i class="material-icons">account_box</i>About</a>
+        <a id="menuResume" class="list-group-item" href="resume.html"><i class="material-icons">article</i>Resume</a>
+      </ul>
+    </div>
+
+    <main class="bmd-layout-content">
+      <div id="resumePage" class="container page-container">
+        <h1 class="title">Resume</h1>
+        <section id="education" class="resumeSection">
+          <h2>Education</h2>
+          <ul>
+            <li><strong>Rose-Hulman Institute of Technology</strong> - Class of 2022</li>
+
+            <ul>
+              <li><strong>Major</strong>: Mechanical Engineering, Aerospace concentration</li>
+              <li><strong>Minors</strong>: German, Computer Science</li>
+              <li><strong>GPA</strong>: 3.90</li>
+              <li><strong>Study Abroad</strong>: Otto von G&uuml;ricke Universit&auml;t in Magdeburg, Germany - Summer
+                2019
+              </li>
+            </ul>
+
+            <li><strong>Vestavia Hills High School</strong> - Class of 2018</li>
+          </ul>
+          <h3>Related Courses</h3>
+          <ul>
+            <li>Global Engineering and the Social Context</li>
+            <li>Graphical Communications</li>
+            <li>Intro to Aerospace Engineering</li>
+            <li>Design for Manufacturing</li>
+            <li>Machine Component Design</li>
+          </ul>
+        </section>
+        <br>
+        <section id="experience" class="resumeSection">
+          <h2>Experience</h2>
+          <ul>
+            <li><strong>Collins Aerospace, Raytheon Technologies</strong> - Systems Engineering Co-op, Military Avionics
+            </li>
+
+            <ul>
+              <li>Wrote, reviewed, and executed system-level tests for the KC-135 aircraft</li>
+              <li>Wrote system-level requirements for a new pilot data entry system that will introduce touch screens
+                into
+                military cockpits</li>
+            </ul>
+
+          </ul>
+        </section>
+        <br>
+        <section id="leadership" class="resumeSection">
+          <h2>Leadership</h2>
+          <ul>
+            <li><strong>Rose-Hulman Panhellenic Council</strong> - Vice President of Public Relations</li>
+
+            <ul>
+              <li>organizes and advertises events for all soroities on campus</li>
+              <li>leads and manages panhellenic delegates on the activities and public realations committes</li>
+            </ul>
+
+            <li><strong>Delta Delta Delta Sorority</strong> - Collegiate Alumni Relations Chair</li>
+
+            <ul>
+              <li>Responsible for all chapter contact with alumni</li>
+              <li>Coordinates alumni events such as homecoming</li>
+            </ul>
+
+            <li><strong>Rose-Hulman Rec Sports</strong> - Intramural Supervisor</li>
+
+            <ul>
+              <li>Manages intramural referees</li>
+              <li>Responsible for safety and incident reports</li>
+            </ul>
+
+          </ul>
+        </section>
+
+      </div>
+    </main>
+  </div>
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/popper.js"></script>
+  <script src="scripts/bootstrap-material-design.js"></script>
+  <script>
+    $("body").bootstrapMaterialDesign();
+  </script>
+  <script src="/__/firebase/7.18.0/firebase-app.js"></script>
+  <script src="/__/firebase/7.18.0/firebase-analytics.js"></script>
+  <script src="/__/firebase/7.18.0/firebase-auth.js"></script>
+  <script src="/__/firebase/7.18.0/firebase-firestore.js"></script>
+  <script src="/__/firebase/init.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
